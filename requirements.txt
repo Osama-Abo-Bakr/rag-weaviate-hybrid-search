@@ -1,0 +1,52 @@
+# RAG Pipeline.
+langchain
+langchain-openai
+langchain-community
+langchain-experimental
+langchain-google-genai
+
+# Document Ingestion
+llama-index
+
+# For Embedding
+langchain-huggingface
+# sentence_transformers
+
+# For Vector-DB & Re-rank.
+langchain-weaviate
+langchain-cohere
+weaviate-client
+weaviate
+cohere
+
+# For Database PostgreSQL
+psycopg2-binary
+psycopg2
+sqlalchemy
+
+# For Data Processing
+unstructured[all-docs]
+onnx==1.14.1
+onnxruntime==1.16.3
+whisper
+openai-whisper
+
+PyPDF2
+science_parse_api
+pypdf
+
+# For Backend & APIs
+fastapi[standard]
+uvicorn[standard]
+python-multipart
+
+# Load Env
+python-dotenv
+
+# For test GUI
+streamlit 
+
+
+# Other Dependencies
+camelot-py
+pdf2docx
